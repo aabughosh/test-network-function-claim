@@ -57,7 +57,7 @@ type TestCaseDescription struct {
 	// Whether or not automated tests exist for the test case. Not to be rendered.
 	Qe bool `json:"qe" yaml:"qe"`
 	// classification for each test case
-	Categoryclassification CategoryClassification `json:"Categoryclassification" yaml:"Categoryclassification"`
+	Categoryclassification CategoryClassification `json:"categoryclassification" yaml:"categoryclassification"`
 }
 
 func formTestTags(tags ...string) string {
